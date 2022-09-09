@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mantras">
+
+    <TextView
+        android:id="@+id/mantras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/engagement"
+        android:text="Mantras"
+        android:textColor="@color/deepyellow"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+
+    <LinearLayout
+        android:id="@+id/gayatri"
+        android:layout_width="192dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/mantras"
+        app:layout_constraintVertical_bias="0.639">
+
+
+        <Button
+            android:id="@+id/gayatriplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="gayatriplay"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/gayatripause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="gayatripause"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/gayatristop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="gayatristop"
+            android:text="stop" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/om"
+        android:layout_width="171dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mantras"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/om" />
+
+    <LinearLayout
+        android:id="@+id/om"
+        android:layout_width="192dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/mantras"
+        app:layout_constraintVertical_bias="0.131">
+
+
+        <Button
+            android:id="@+id/omplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="omplay"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/ompause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="ompause"
+            android:text="Pause" />
+
+        <Button
+            android:id="@+id/omstop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="omstop"
+            android:text="stop" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/gayatri"
+        android:layout_width="161dp"
+        android:layout_height="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mantras"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/gayatri" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

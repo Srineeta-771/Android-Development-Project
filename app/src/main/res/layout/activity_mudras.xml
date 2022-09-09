@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mudras">
+
+    <TextView
+        android:id="@+id/tmudras"
+        android:layout_width="206dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/engagement"
+        android:text="Mudras"
+        android:textColor="@color/deepyellow"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="390dp"
+        android:layout_height="538dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20sp">
+
+                    <ImageView
+                        android:id="@+id/igyan"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/gyan" />
+
+                    <TextView
+                        android:id="@+id/tgyan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Gyan Mudra\n(Psychic gesture of Knowledge)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20sp">
+
+                    <ImageView
+                        android:id="@+id/ichinmaya"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/chinmaya" />
+
+                    <TextView
+                        android:id="@+id/tchinmaya"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Chinmaya Mudra\n(Awareness)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp">
+
+                    <ImageView
+                        android:id="@+id/ivayu"
+                        android:layout_width="190dp"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/vayu" />
+
+                    <TextView
+                        android:id="@+id/tvayu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Vayu Mudra\n(Air)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20sp">
+
+                    <ImageView
+                        android:id="@+id/iagni"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/agni" />
+
+                    <TextView
+                        android:id="@+id/tagni"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Agni Mudra\n(Fire)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp">
+
+                    <ImageView
+                        android:id="@+id/ivarun"
+                        android:layout_width="190dp"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/varun" />
+
+                    <TextView
+                        android:id="@+id/tvarun"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Varun Mudra\n(Water)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20sp">
+
+                    <ImageView
+                        android:id="@+id/iprana"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/prana" />
+
+                    <TextView
+                        android:id="@+id/tprana"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Prana Mudra\n(Life)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20sp">
+
+                    <ImageView
+                        android:id="@+id/ishunya"
+                        android:layout_width="190dp"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/shunya" />
+
+                    <TextView
+                        android:id="@+id/tshunya"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Shunya Mudra\n(Sky)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20sp">
+
+                    <ImageView
+                        android:id="@+id/isurya"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/surya" />
+
+                    <TextView
+                        android:id="@+id/tsurya"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Surya Mudra\n(Sun)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="50dp">
+
+                    <ImageView
+                        android:id="@+id/iprithvi"
+                        android:layout_width="190dp"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/prithvi" />
+
+                    <TextView
+                        android:id="@+id/tprithvi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Prithvi Mudra\n(Earth)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20sp"
+                    android:layout_marginBottom="50dp">
+
+                    <ImageView
+                        android:id="@+id/iadi"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        app:srcCompat="@drawable/adi" />
+
+                    <TextView
+                        android:id="@+id/tadi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="130dp"
+                        android:background="@color/yellow"
+                        android:gravity="center"
+                        android:text="Adi Mudra\n(First Gesture)"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

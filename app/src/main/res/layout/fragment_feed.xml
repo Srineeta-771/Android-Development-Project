@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".Feed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/iabtyog"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/abtyoga"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="40dp" />
+
+            <Button
+                android:id="@+id/babtyog"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:text="@string/about_yoga"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/imudras"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/mudras"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="20dp" />
+
+            <Button
+                android:id="@+id/bmudras"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:text="@string/yoga_mudras"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/imantras"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:ignore="ImageContrastCheck"
+                android:src="@drawable/mantras" />
+
+            <Button
+                android:id="@+id/bmantras"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:text="@string/mantras"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/ibmi"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                tools:ignore="ImageContrastCheck"
+                android:src="@drawable/bmi" />
+
+            <Button
+                android:id="@+id/bbmi"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/yellow"
+                android:text="BMI Calculator"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pocketyoga">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PocketYoga"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Mantras"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Mudras"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Bmi"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Abtyoga"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Sunsalute"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Natraj"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Bridge"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Camel"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Shoulder"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Plow"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Cobra"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Revprayer"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Tree"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Mountain"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Sirsasana"
+            android:theme="@style/AppTheme"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
